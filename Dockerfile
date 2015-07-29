@@ -18,5 +18,5 @@ cd /tmp/node-v0.12.2/ && \
 make && \
 make install && \
 rm -rf /tmp/*
-RUN gem install sass && gem install rails -v 4.2.1
+RUN gem install rails -v 4.2.1
 EXPOSE 80
